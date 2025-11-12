@@ -45,8 +45,8 @@ class VideoRAG:
     
     # video
     threads_for_split: int = 10
-    video_segment_length: int = 10 # 30 seconds
-    rough_num_frames_per_segment: int = 3 # 5 frames
+    video_segment_length: int = 20 # 20 seconds
+    rough_num_frames_per_segment: int = 5 # 5 frames
     video_output_format: str = "mp4"
     audio_output_format: str = "mp3"
     video_embedding_batch_num: int = 2
